@@ -1,0 +1,9 @@
+.gifs{
+    width: 100%;
+}
+.gifList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

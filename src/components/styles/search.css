@@ -1,0 +1,24 @@
+.search{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px;
+}
+.search form{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.search input{
+    width: 300px;   
+    border:none
+}
+.search input:focus {    
+    outline: none;   
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+}
+.search form:focus-within {    
+    background-color: yellow;
+    border-radius: 5px;
+}
